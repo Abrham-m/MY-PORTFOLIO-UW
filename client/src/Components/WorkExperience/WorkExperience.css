@@ -1,0 +1,27 @@
+.container-w-e {
+  margin-top: 70px;
+  margin-left: 175px;
+}
+.line-w-e {
+  width: 155px;
+}
+.tech-used-in-work p {
+  background-color: rgb(8, 39, 48);
+  color: white;
+  border-radius: 90px;
+  text-align: center;
+  width: max-content;
+  padding: 3px 10px;
+}
+.date {
+  color: rgb(8, 39, 48);
+}
+.timeline-section-w-e {
+  margin-top: 20px;
+}
+
+@media (max-width: 760) {
+  .container-w-e {
+    margin-left: 0px;
+  }
+}
