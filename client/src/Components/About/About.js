@@ -44,14 +44,19 @@ const About = () => {
             <div className="social-media-account">
               <a
                 target="_"
+                rel="noreferrer"
                 href="https://www.linkedin.com/in/abrham-mengistu-a45046208/"
               >
                 <FaLinkedin size={32} color="#0077b5" />
               </a>
-              <a target="_" href="https://twitter.com/Abrham_m1">
+              <a
+                target="_"
+                rel="noreferrer"
+                href="https://twitter.com/Abrham_m1"
+              >
                 <FaXTwitter size={32} />
               </a>
-              <a target="_" href="https://github.com/Abrham-m">
+              <a target="_" rel="noreferrer" href="https://github.com/Abrham-m">
                 <FaGithub size={32} />
               </a>
             </div>
