@@ -1,0 +1,65 @@
+.home {
+  height: 270px;
+  /* width: max-content; */
+  color: white;
+}
+.home-container {
+  padding: 10px;
+  margin-top: 100px;
+  margin-left: 200px;
+}
+.home-container h1 {
+  font-size: 2.6rem;
+}
+
+.home-container h2 {
+  margin-top: 25px;
+  color: rgb(8, 133, 161);
+}
+.button-for-home {
+  display: flex;
+  flex-direction: row;
+}
+.hire-me-btn {
+  background-color: #ff854c;
+  text-align: center;
+  width: 180px;
+  padding: 10px;
+  border-radius: 90px;
+  cursor: pointer;
+  margin-top: 10px;
+  border: 2px solid rgba(255, 255, 255, 0.797);
+  font-size: 19px;
+  font-family: "Times New Roman", Times, serif;
+}
+.hire-me-btn:hover {
+  background-color:white;
+  color: #fa8853;
+  width: 230px;
+  border: 2px solid #fa8853;
+  transition-duration: 1s;
+}
+
+.get-resume-btn {
+  background-color: #e6e604;
+  text-align: center;
+  width: 180px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+  border-radius: 90px;
+  cursor: pointer;
+  border: 2px solid rgba(255, 255, 255, 0.797);
+  font-size: 19px;
+  font-family: "Times New Roman", Times, serif;
+}
+.get-resume-btn:hover {
+  background-color: white;
+  color: #b4ab04;
+  border: 2px solid #b4ab04;
+  width: 230px;
+  transition-duration: 1s;
+}
+.get-resume-btn a{
+  text-decoration: none;
+}
