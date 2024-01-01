@@ -25,6 +25,10 @@ app.use("/test", (req, res) => {
 
 let date = new Date().toLocaleString({ timeZone: "Nairobi, Kenya" });
 
+app.get('/',(req,res)=>{
+  res.send(`Server is running ${date}`);
+})
+
 app.post("/sendemail", (req, res) => {
   const { name, email, jobType, message } = req.body;
   mailOptions.html = `<h3>Detail Information</h3>
