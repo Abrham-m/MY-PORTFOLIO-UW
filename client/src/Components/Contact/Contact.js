@@ -6,7 +6,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 const Contact = () => {
-  const API = "http://localhost:1414/sendemail";
+  const API = "https://portfolio-website-6q7y.onrender.com/sendemail";
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [jobType, setJobType] = useState("");
