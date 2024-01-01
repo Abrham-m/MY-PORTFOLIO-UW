@@ -9,11 +9,12 @@ import WorkExperience from "./Components/WorkExperience/WorkExperience";
 import Education from "./Components/Education/Education";
 import Contact from "./Components/Contact/Contact";
 import Testimonial from "./Components/Testimonial/Testimonial";
-
+import NavbarMobileView from "./Components/Sidebar/NavbarMobileView";
 import ScrollToTop from "react-scroll-to-top";
 const App = () => {
   return (
     <>
+    <NavbarMobileView/>
       <Sidebar />
       <About />
       <WorkExperience />
