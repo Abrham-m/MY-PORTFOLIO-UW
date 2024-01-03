@@ -50,10 +50,11 @@ web_modules/
 
 # Optional npm cache directory
 .npm
-
 # Optional eslint cache
 .eslintcache
 
+*.md
+!README.md
 # Optional stylelint cache
 .stylelintcache
 

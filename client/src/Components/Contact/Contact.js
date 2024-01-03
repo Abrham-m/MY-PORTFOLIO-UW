@@ -89,6 +89,7 @@ const Contact = () => {
                   className="contact-select-option"
                   id=""
                   value={jobType}
+                  defaultValue={jobType}
                   onChange={(e) => setJobType(e.target.value)}
                 >
                   <option value="" selected disabled hidden>
@@ -111,23 +112,22 @@ const Contact = () => {
                   onChange={(e) => setMessage(e.target.value)}
                 />
               </div>
-              <div
-                className="submit-button"
-                onClick={
-                  !name
-                    ? () => notify("Name") // the name input field is empty
-                    : !email
-                    ? () => notify("Email") // the email input field is empty
-                    : !message
-                    ? () => notify("Message") // the message input field is empty
-                    : !jobType
-                    ? () => notify("Job Type") // the message input field is empty
-                    : () => {
-                        sendMailInfo();
-                      } // all inputs are inserted email is on its way
-                }
-              >
-                <p>
+              <div className="submit-button">
+                <p
+                  onClick={
+                    !name
+                      ? () => notify("Name") // the name input field is empty
+                      : !email
+                      ? () => notify("Email") // the email input field is empty
+                      : !message
+                      ? () => notify("Message") // the message input field is empty
+                      : !jobType
+                      ? () => notify("Job Type") // the message input field is empty
+                      : () => {
+                          sendMailInfo();
+                        } // all inputs are inserted email is on its way
+                  }
+                >
                   Send
                   <FaTelegramPlane size={23} className="send-message-icon" />
                 </p>
