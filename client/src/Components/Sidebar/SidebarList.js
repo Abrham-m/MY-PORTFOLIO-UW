@@ -4,7 +4,7 @@ import profilePic from "../../Image/profilePic.jpg";
 import { FcHome, FcPortraitMode, FcTodoList } from "react-icons/fc";
 import { MdBiotech } from "react-icons/md";
 import { FaGraduationCap } from "react-icons/fa";
-import { TbMessage2Star } from "react-icons/tb";
+// import { TbMessage2Star } from "react-icons/tb";
 import { FaBriefcase } from "react-icons/fa";
 import { RiContactsBook2Fill } from "react-icons/ri";
 import { Link } from "react-scroll";

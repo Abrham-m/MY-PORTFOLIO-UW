@@ -88,11 +88,9 @@ const Contact = () => {
                 <select
                   className="contact-select-option"
                   id=""
-                  value={jobType}
-                  defaultValue={jobType}
                   onChange={(e) => setJobType(e.target.value)}
                 >
-                  <option value="" selected disabled hidden>
+                  <option value="DEFAULT" disabled hidden>
                     Choose here
                   </option>
                   <option value="Full-time">Full-time</option>
