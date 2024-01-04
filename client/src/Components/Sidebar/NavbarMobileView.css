@@ -1,51 +1,51 @@
-.mobile-view-navbar{
-    position: sticky;
-    top: 0px;
-    z-index: 1;
+.mobile-view-navbar {
+  position: sticky;
+  top: 0px;
+  z-index: 1;
 }
 .navbar-header {
-    width: 100%;
-    background-color: #4e748b;
-    color:white;
-    padding: 5px;
+  width: 100%;
+  background-color: #4e748b;
+  color: white;
+  padding: 5px;
 }
 .navbar-header p {
-    margin-bottom: 0px;
+  margin-bottom: 0px;
 }
-.navbar-header p svg{
-    margin-top: 10px;
-    margin-left: 10px;
-    cursor: pointer;
-}
-
-.mobile-nav{
-height: auto;
-width: 200px;
-background-color: #4e748b;
-margin-top: 5px;
-padding: 5px;
+.navbar-header p svg {
+  margin-top: 10px;
+  margin-left: 10px;
+  cursor: pointer;
 }
 
-.mobile-nav ul li{
-color: white;
-list-style: none;
-text-decoration: none;
-cursor: pointer;
-margin-top: 30px;
+.mobile-nav {
+  position: fixed;
+  height: auto;
+  width: 200px;
+  background-color: #4e748b;
+  margin-top: 5px;
+  padding: 5px;
 }
 
-.mobile-nav ul li a{
-text-decoration: none;
-color: inherit;
-}
-.mobile-nav ul li .active{
-    color: yellow;
-    border-left: 2px solid yellow;
+.mobile-nav ul li {
+  color: white;
+  list-style: none;
+  text-decoration: none;
+  cursor: pointer;
+  margin-top: 30px;
 }
 
+.mobile-nav ul li a {
+  text-decoration: none;
+  color: inherit;
+}
+.mobile-nav ul li .active {
+  color: yellow;
+  border-left: 2px solid yellow;
+}
 
-@media (min-width:1000px) {
-    .mobile-view-navbar{
-        display:none
-    }
+@media (min-width: 1000px) {
+  .mobile-view-navbar {
+    display: none;
+  }
 }

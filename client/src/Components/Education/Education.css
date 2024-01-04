@@ -1,7 +1,18 @@
-.container-education{
-margin-top: 70px;
-margin-left: 175px;
+.container-education {
+  margin-top: 70px;
+  margin-left: 175px;
 }
-.line-ed{
-    width: 100px;
+.line-ed {
+  width: 100px;
+}
+
+@media (max-width: 600px) {
+  .container-education {
+    margin-left: 2.8%;
+  }
+}
+@media (min-width: 600px) and (max-width: 1000px) {
+  .container-education {
+    margin-left: 13%;
+  }
 }

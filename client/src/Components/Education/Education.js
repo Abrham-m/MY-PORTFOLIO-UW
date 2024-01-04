@@ -62,11 +62,10 @@ const Education = () => {
               icon={index === 0 ? <FaGraduationCap /> : <GrCertificate />}
               key={index}
             >
-              <h3 className="vertical-timeline-element-title">{item.name}</h3>
-              <h5 className="vertical-timeline-element-subtitle">
-                {item.degree}
-              </h5>
-
+                <h3 className="vertical-timeline-element-title">{item.name}</h3>
+                <h5 className="vertical-timeline-element-subtitle">
+                  {item.degree}
+                </h5>
               {/* <p>{item.description}</p> */}
             </VerticalTimelineElement>
           ))}

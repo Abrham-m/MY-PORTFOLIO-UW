@@ -52,12 +52,12 @@ const Contact = () => {
     <div className="container contact-section" id="contact">
       <ToastContainer position="bottom-center" limit={1} autoClose={4000} />
       <div className="row">
-        <div className="col-xl-6 col-lg-6 col-md-6 col-sm-5">
+        <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
           <div className="contact-form-image">
             <img src={image} alt="" />
           </div>
         </div>
-        <div className="col-xl-6 col-lg-6 col-md-7 col-sm-7">
+        <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-resp">
           <div className="contact-form-container">
             <div className="text-center">
               <h5>Contact Me</h5>
@@ -102,7 +102,7 @@ const Contact = () => {
               <div className="contact-form">
                 <label>Message</label>
                 <textarea
-                  rows="5"
+                  rows="3"
                   type="text"
                   className="form-control"
                   required

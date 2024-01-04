@@ -1,6 +1,5 @@
 .home {
   height: 270px;
-  /* width: max-content; */
   color: white;
 }
 .home-container {
@@ -33,7 +32,7 @@
   font-family: "Times New Roman", Times, serif;
 }
 .hire-me-btn:hover {
-  background-color:white;
+  background-color: white;
   color: #fa8853;
   width: 230px;
   border: 2px solid #fa8853;
@@ -60,6 +59,21 @@
   width: 230px;
   transition-duration: 1s;
 }
-.get-resume-btn a{
+.get-resume-btn a {
   text-decoration: none;
+}
+
+@media (max-width: 415px) {
+  .home {
+    height: auto;
+  }
+  .home-container {
+    margin-left: 6.7%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .home-container {
+    margin-left: 6.7%;
+  }
 }

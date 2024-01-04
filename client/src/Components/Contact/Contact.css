@@ -56,3 +56,20 @@
 .send-message-icon {
   margin-left: 10px;
 }
+
+@media (min-width: 360px) and (max-width: 575px) {
+  .contact-section {
+    margin-left: 0px;
+  }
+  .col-resp {
+    margin-top: 15%;
+  }
+}
+@media (min-width: 575px) and (max-width: 998px) {
+  .contact-section {
+    margin-left: 0px;
+  }
+  .col-resp {
+    margin-top: 15%;
+  }
+}
