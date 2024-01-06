@@ -2,7 +2,6 @@ import React from "react";
 import "./Home.css";
 import Typewriter from "typewriter-effect";
 import my_cv from "./CV Abrham Mengistu.pdf";
-import { Link } from "react-scroll";
 
 export const Home = () => {
   return (
@@ -22,15 +21,14 @@ export const Home = () => {
         </h2>
 
         <div className="button-for-home">
-          <Link
-            to="contact"
-            spy={true}
-            duration={500}
-            smooth={true}
-            offset={-80}
+          <a
+            target="_"
+            href="https://www.upwork.com/freelancers/~016798daf5554ca4e6"
+            className="hire-me-btn"
           >
-            <div className="hire-me-btn">Hire Me</div>
-          </Link>
+            Hire Me
+          </a>
+
           <div className="get-resume-btn">
             <a href={my_cv} download="Abrham_Mengistu_CV.pdf">
               Get Resume

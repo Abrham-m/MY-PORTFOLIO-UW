@@ -1,9 +1,6 @@
 import React from "react";
 import "./About.css";
 import profilePic from "../../Image/profilePic.jpg";
-import { FaLinkedin } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
-import { FaGithub } from "react-icons/fa";
 const About = () => {
   return (
     <div className="container about-section" id="about">
@@ -39,26 +36,6 @@ const About = () => {
                 challenges and am a strong advocate for continuous learning and
                 sharing knowledge within the developer community.
               </p>
-            </div>
-
-            <div className="social-media-account">
-              <a
-                target="_"
-                rel="noreferrer"
-                href="https://www.linkedin.com/in/abrham-mengistu-a45046208/"
-              >
-                <FaLinkedin size={32} color="#0077b5" />
-              </a>
-              <a
-                target="_"
-                rel="noreferrer"
-                href="https://twitter.com/Abrham_m1"
-              >
-                <FaXTwitter size={32} />
-              </a>
-              <a target="_" rel="noreferrer" href="https://github.com/Abrham-m">
-                <FaGithub size={32} />
-              </a>
             </div>
           </div>
         </div>

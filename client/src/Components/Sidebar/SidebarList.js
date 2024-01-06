@@ -6,7 +6,6 @@ import { MdBiotech } from "react-icons/md";
 import { FaGraduationCap } from "react-icons/fa";
 // import { TbMessage2Star } from "react-icons/tb";
 import { FaBriefcase } from "react-icons/fa";
-import { RiContactsBook2Fill } from "react-icons/ri";
 import { Link } from "react-scroll";
 
 const SidebarList = ({ expandSidebar }) => {
@@ -103,18 +102,7 @@ const SidebarList = ({ expandSidebar }) => {
                 Testimonial
               </Link>
             </li> */}
-            <li className="nav-item">
-              <Link
-                to="contact"
-                spy={true}
-                duration={500}
-                smooth={true}
-                offset={-80}
-              >
-                <RiContactsBook2Fill size={25} color="#ff9e00" />
-                Contact
-              </Link>
-            </li>
+           
           </ul>
         </div>
       ) : (
@@ -204,18 +192,7 @@ const SidebarList = ({ expandSidebar }) => {
                 <TbMessage2Star size={25} color="#e396f2" />
               </Link>
             </li> */}
-            <li className="nav-item">
-              {/* Icon for Contact */}
-              <Link
-                to="contact"
-                spy={true}
-                duration={500}
-                smooth={true}
-                offset={-80}
-              >
-                <RiContactsBook2Fill size={25} color="#ff9e00" />
-              </Link>
-            </li>
+           
           </ul>
         </div>
       )}

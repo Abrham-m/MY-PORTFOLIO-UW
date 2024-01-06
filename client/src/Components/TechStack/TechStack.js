@@ -12,7 +12,6 @@ import { FaPython } from "react-icons/fa";
 import { FaJava } from "react-icons/fa";
 import { DiCss3 } from "react-icons/di";
 import { BiLogoCPlusPlus } from "react-icons/bi";
-import { FaReact } from "react-icons/fa";
 
 const TechStack = () => {
   const data = [

@@ -3,9 +3,8 @@ import "./NavbarMobileView.css";
 import { FcHome, FcPortraitMode, FcTodoList } from "react-icons/fc";
 import { MdBiotech } from "react-icons/md";
 import { FaGraduationCap } from "react-icons/fa";
-import { TbMessage2Star } from "react-icons/tb";
+// import { TbMessage2Star } from "react-icons/tb";
 import { FaBriefcase } from "react-icons/fa";
-import { RiContactsBook2Fill } from "react-icons/ri";
 import { Link } from "react-scroll";
 import { GiHamburgerMenu } from "react-icons/gi";
 
@@ -97,7 +96,7 @@ const NavbarMobileView = () => {
                 Projects
               </Link>
             </li>
-            <li className="nav-item-mobileview">
+            {/* <li className="nav-item-mobileview">
               <Link
                 to="testimonial"
                 spy={true}
@@ -108,19 +107,8 @@ const NavbarMobileView = () => {
                 <TbMessage2Star size={25} color="#e396f2" />
                 Testimonial
               </Link>
-            </li>
-            <li className="nav-item-mobileview">
-              <Link
-                to="contact"
-                spy={true}
-                duration={500}
-                smooth={true}
-                offset={-80}
-              >
-                <RiContactsBook2Fill size={25} color="#ff9e00" />
-                Contact
-              </Link>
-            </li>
+            </li> */}
+            
           </ul>
         </div>
       ) : null}
