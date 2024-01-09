@@ -8,7 +8,7 @@ export const Home = () => {
     <div className="container-fluid home" id="home">
       <div className="container home-container">
         <h1>Hi I am</h1>
-        <h1 className="name">Abrham Mengisu</h1>
+        <h1 className="name">Abrham Mengistu</h1>
         <h2>
           <Typewriter
             options={{
