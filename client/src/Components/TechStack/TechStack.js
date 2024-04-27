@@ -12,6 +12,9 @@ import { FaPython } from "react-icons/fa";
 import { FaJava } from "react-icons/fa";
 import { DiCss3 } from "react-icons/di";
 import { BiLogoCPlusPlus } from "react-icons/bi";
+import { FaReact } from "react-icons/fa";
+import { SiTailwindcss } from "react-icons/si";
+import { FaBootstrap } from "react-icons/fa";
 
 const TechStack = () => {
   const data = [
@@ -20,6 +23,9 @@ const TechStack = () => {
     },
     {
       name: "Node Js",
+    },
+    {
+      name: "React",
     },
     {
       name: "Express JS",
@@ -41,6 +47,12 @@ const TechStack = () => {
     },
     {
       name: "CSS",
+    },
+    {
+      name: "Tailwind",
+    },
+    {
+      name: "Bootstrap",
     },
     {
       name: "C++",
@@ -67,16 +79,18 @@ const TechStack = () => {
               <div className="tech-content ">
                 <span className="tech-icon">
                   {index === 0 ? <IoLogoJavascript size={40} /> : ""}
-                  {/* {index === 1 ? <FaReact size={40} /> : ""} */}
                   {index === 1 ? <FaNodeJs size={40} /> : ""}
-                  {index === 2 ? <SiExpress size={40} /> : ""}
-                  {index === 3 ? <SiMongodb size={40} /> : ""}
-                  {index === 4 ? <GrMysql size={40} /> : ""}
-                  {index === 5 ? <FaPython size={40} /> : ""}
-                  {index === 6 ? <FaJava size={40} /> : ""}
-                  {index === 7 ? <FaHtml5 size={40} /> : ""}
-                  {index === 8 ? <DiCss3 size={40} /> : ""}
-                  {index === 9 ? <BiLogoCPlusPlus size={40} /> : ""}
+                  {index === 2 ? <FaReact size={40} /> : ""}
+                  {index === 3 ? <SiExpress size={40} /> : ""}
+                  {index === 4 ? <SiMongodb size={40} /> : ""}
+                  {index === 5 ? <GrMysql size={40} /> : ""}
+                  {index === 6 ? <FaPython size={40} /> : ""}
+                  {index === 7 ? <FaJava size={40} /> : ""}
+                  {index === 8 ? <FaHtml5 size={40} /> : ""}
+                  {index === 9 ? <DiCss3 size={40} /> : ""}
+                  {index === 10 ? <SiTailwindcss size={40} /> : ""}
+                  {index === 11 ? <FaBootstrap size={40} /> : ""}
+                  {index === 12 ? <BiLogoCPlusPlus size={40} /> : ""}
                 </span>
                 <p>{item.name}</p>
               </div>
