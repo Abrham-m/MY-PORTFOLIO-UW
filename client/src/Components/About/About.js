@@ -27,7 +27,7 @@ const About = () => {
                 and efficient web applications, and I have a deep understanding
                 of the Node.js ecosystem. I have extensively worked with
                 Express.js to build Restful APIs and have hands-on experience
-                with MongoDB for database management. Furthermore, I have a
+                with MongoDB for database management. <br/>Furthermore, I have a
                 strong understanding of server-side programming concepts, such
                 as asynchronous programming, event-driven architecture, and
                 caching techniques. I am also knowledgeable about security best
