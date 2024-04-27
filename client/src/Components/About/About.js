@@ -18,23 +18,24 @@ const About = () => {
             </div>
             <div className="about-text">
               <p>
-                Hello, my name is Abrham Mengistu. I am a passionate and skilled
-                Node.js developer with more than 2 years of experience in the
-                field. I have a strong knack for creating efficient and scalable
-                web applications using cutting-edge technologies and frameworks.
-                In addition to being well-versed in Node.js. I thrive in
-                collaborative team environments, fostering open communication
-                and utilizing agile methodologies to deliver high-quality code
-                within deadlines.
-              </p>
-              <p>
-                I specialize in building strong backend architectures, designing
-                and implementing RESTful APIs, and optimizing performance for a
-                great user experience. I am proactive in learning and staying
-                updated with industry trends and practices, and I possess
-                excellent problem-solving skills. I enjoy taking on new
-                challenges and am a strong advocate for continuous learning and
-                sharing knowledge within the developer community.
+                Hello, <br/>
+                my name is Abrham Mengistu. I am an experienced Full
+                Stack ( MERN Stack ) developer with expertise in React, Node.js,
+                Express.js, and MongoDB. I have been working in this field for 2
+                years and have successfully delivered several projects using
+                these technologies. I am passionate about developing scalable
+                and efficient web applications, and I have a deep understanding
+                of the Node.js ecosystem. I have extensively worked with
+                Express.js to build Restful APIs and have hands-on experience
+                with MongoDB for database management. Furthermore, I have a
+                strong understanding of server-side programming concepts, such
+                as asynchronous programming, event-driven architecture, and
+                caching techniques. I am also knowledgeable about security best
+                practices and performance optimization. I have a proven track
+                record of collaborating with cross-functional teams,
+                communicating effectively, and delivering high-quality code
+                within deadlines. I am constantly staying up-to-date with the
+                latest trends and advancements in the backend development space.
               </p>
             </div>
           </div>

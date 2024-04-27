@@ -12,7 +12,10 @@ export const Home = () => {
         <h2>
           <Typewriter
             options={{
-              strings: ["Backend Web Developer", "Node JS Developer"],
+              strings: [
+                "Full Stack Developer",
+                "MERN Stack (MongoDB, Express.js, React, Node.js)",
+              ],
               autoStart: true,
               loop: true,
               pauseFor: 1200,

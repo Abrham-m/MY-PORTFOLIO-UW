@@ -108,7 +108,6 @@ const NavbarMobileView = () => {
                 Testimonial
               </Link>
             </li> */}
-            
           </ul>
         </div>
       ) : null}
